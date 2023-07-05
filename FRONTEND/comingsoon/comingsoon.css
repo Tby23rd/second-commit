@@ -1,0 +1,19 @@
+.beforenav{
+    border:1px solid #555;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-between;
+  }
+  .dark{
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+}
+
+#demo {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    color: #000;
+  }
