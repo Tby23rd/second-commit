@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  #para{
+    font-size: medium;
+  }
+  .bgimg {
+    background-color: teal;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 10px;
+  }
+.bottomleft{
+    width: auto;
+    height: fit-content;
+}
+  
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+  .glow {
+    font-family: cursive;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00cfe6, 0 0 40px #01505c, 
+      0 0 50px #00c7e6, 0 0 60px #0099e6, 0 0 70px #027b7b;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #4dbeff,
+       0 0 40px #4df3ff, 0 0 50px #1d8ea4, 0 0 60px
+        #4de1ff, 0 0 70px #2ca0b7, 0 0 80px #1d3d44;
+    }
+  }
+
+
+  a:link {
+     text-decoration: brown;
+     background-color: #c9dee0;
+    } 
+
+  a:visited {
+    background-color:rgb(1, 30, 35);
+    color: brown;
+} 
+  
+  a:hover {
+
+
+    color: #fff;
+    background-color:rgb(4, 38, 255);
+} 
+  
+
+ 
